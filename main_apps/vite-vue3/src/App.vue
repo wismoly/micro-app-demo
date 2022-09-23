@@ -24,6 +24,7 @@ const sidebarData = {
      *
      * getActiveApps: 用于获取正在运行的子应用
      */
+    console.log('111getActiveApps()', getActiveApps());
     if (!getActiveApps().includes(appName)) {
       // child-vite 和 child-react17子应用为hash路由，这里拼接一下hash值
       hash && (path += `/#${hash}`)

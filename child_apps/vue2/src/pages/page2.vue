@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>child-vue2-page2</h1>
-    <div class="child-vue2-test-btn">test</div>
+    <div class="child-vue2-test-btn">test2</div>
     <img src="../assets/micro-app-logo.png" alt="micro-app-logo" />
   </div>
 </template>
